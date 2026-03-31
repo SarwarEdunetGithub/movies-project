@@ -19,6 +19,7 @@ h3{
     margin: 10px 50px;
     padding: 30px 50px;
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     border: 2px solid grey;
     border-top-right-radius: 25px;
@@ -29,6 +30,8 @@ table{
     text-align: center;
     font-size: 30px;
     border-collapse: collapse;
+    width: 100%;
+    
 }
 #home{
     margin: 30px 0px;
