@@ -1,0 +1,38 @@
+body{
+    background-color: #118ab2;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+}
+
+.heromarquee{
+    padding: 50px 0px;
+    /* background-color: antiquewhite; */
+    background: url("../images/lan1.png") center;
+}
+.sideheading{
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+}
+.latestmovies{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 100px;
+}
+.latestmovies a{
+    text-align: center;
+}
+.containt a img{
+    transition: transform, .2s;
+}
+.containt a img:hover{
+    transform: scale(1.2);
+}
